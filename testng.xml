@@ -9,7 +9,7 @@
   <parameter name="browser" value="chrome"/>
     <classes>
     <class name="com.jcp.testcases.TC_Login_001"></class>
-  <class name="com.jcp.testcases.TC_Login_DDT"></class>
+<!--   <class name="com.jcp.testcases.TC_Login_DDT"></class> -->
   </classes>
   </test> <!-- TC_Login_001 -->
 </suite> <!-- Suite -->
