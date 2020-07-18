@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite Name]">
+  <listeners>
+    <listener class-name="com.jcp.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TC_Login_001(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jcp.testcases.TC_Login_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.jcp.testcases.TC_Login_001 -->
+      <class name="com.jcp.testcases.TC_Login_DDT">
+        <methods>
+          <include name="loginDDT" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.jcp.testcases.TC_Login_DDT -->
+    </classes>
+  </test> <!-- TC_Login_001(failed) -->
+</suite> <!-- Failed suite [Suite Name] -->

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 99.642 s <<< FAILURE! - in TestSuite
+login(com.jcp.testcases.TC_Login_001)  Time elapsed: 8.074 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.jcp.testcases.TC_Login_001.login(TC_Login_001.java:53)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 15.941 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 9.681 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 9.278 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 9.519 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 9.351 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+
+loginDDT(com.jcp.testcases.TC_Login_DDT)  Time elapsed: 8.755 s  <<< FAILURE!
+java.lang.AssertionError: Login credentials are not valid
+	at com.jcp.testcases.TC_Login_DDT.loginDDT(TC_Login_DDT.java:74)
+

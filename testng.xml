@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Name" parallel="false">
+
+<listeners>
+<listener class-name ="com.jcp.utilities.Reporting"/>
+</listeners>
+
+  <test name="TC_Login_001">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+    <class name="com.jcp.testcases.TC_Login_001"></class>
+  <class name="com.jcp.testcases.TC_Login_DDT"></class>
+  </classes>
+  </test> <!-- TC_Login_001 -->
+</suite> <!-- Suite -->
+

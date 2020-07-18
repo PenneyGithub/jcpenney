@@ -1,0 +1,7 @@
+com\jcp\testcases\BaseClass.class
+com\jcp\utilities\XLUtils.class
+com\jcp\testcases\TC_Login_001.class
+com\jcp\pageobjects\LoginPage.class
+com\jcp\utilities\Reporting.class
+com\jcp\testcases\TC_Login_DDT.class
+com\jcp\utilities\ReadConfig.class
