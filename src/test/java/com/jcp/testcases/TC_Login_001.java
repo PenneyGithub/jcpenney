@@ -42,7 +42,7 @@ public class TC_Login_001 extends BaseClass {
 	logger.info("Click on Sign in Button");
 	
 	
-	if(driver.getTitle().toLowerCase().contains("jcpenney123@#@$##@#@#@4")) {
+	if(driver.getTitle().toLowerCase().contains("jcpenney")) {
 		
 		Assert.assertTrue(true);
 		logger.info("Page title is displayed");

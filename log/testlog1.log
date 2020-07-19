@@ -537,3 +537,7 @@
 2020-07-17 20:52:44,701 [main] INFO JCPENNEY - Enter email
 2020-07-17 20:52:44,758 [main] INFO JCPENNEY - Enter password
 2020-07-17 20:52:44,969 [main] INFO JCPENNEY - Click on Sign in Button
+2020-07-19 16:02:54,839 [main] INFO jcp - URL is Opened
+2020-07-19 16:03:08,664 [main] INFO jcp - Enter email
+2020-07-19 16:03:11,452 [main] INFO jcp - Enter password
+2020-07-19 16:03:13,661 [main] INFO jcp - Click on Sign in Button
